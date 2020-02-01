@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body{
+  background: black;
+  color: white;
+}
+
+#banner{
+  width: 100vw;
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#banner h1{ text-shadow: 1px 2px 3px darkblue}
+
+.card{background: black;}
+
+#contenido{
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+aside{
+  border: solid 1px gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer{
+  width: 100vw;
+  height: 20vh;
+  background: darkgray;
+  padding: 10px;
+  position: relative;
+}
+
+footer h4{
+  display: inline-block;
+  position: absolute;
+  width: 40%;
+  height: 6vh;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  text-align: center;
+}
